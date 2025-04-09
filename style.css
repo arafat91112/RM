@@ -1,17 +1,22 @@
-.button {
-  background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #f5f5f5;
+  padding: 10px;
 }
 
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-.button1 {background-color: #04AA6D;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */
-.button5 {background-color: #555555;} /* Black */
+button:hover {
+  background-color: #0056b3;
+}
